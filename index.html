@@ -1,0 +1,399 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Prince Chauhan's web developer portfolio featuring AI Resume Screening and Royal Spice."
+  >
+
+  <title>Prince Chauhan | Web Developer Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <main class="app" id="top">
+    <div class="wrap">
+
+      <!-- Navigation -->
+      <nav class="nav" aria-label="Main navigation">
+        <a class="logo" href="#top">
+          PRINCE<span> CHAUHAN.</span>
+        </a>
+
+        <button
+          class="menu-btn"
+          id="menuBtn"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+
+        <div class="navlinks" id="navlinks">
+          <a href="#work">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+          <a class="btn primary" href="#contact">
+            Let's work together ↗
+          </a>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <section class="hero">
+        <div>
+          <div class="pill">
+            <span class="dot"></span>
+            Available for freelance projects
+          </div>
+
+          <p class="eyebrow hero-eyebrow">
+            PRINCE CHAUHAN · Web Developer
+          </p>
+
+          <h1>
+            I build websites that <em>work hard.</em>
+          </h1>
+
+          <p class="intro">
+            I'm Prince Chauhan, a web developer interested in building
+            clean, responsive websites and useful web applications.
+            I focus on simple design, smooth user experience, and
+            practical functionality for real-world needs.
+          </p>
+
+          <div class="actions">
+            <a class="btn primary" href="#work">
+              Explore my work ↘
+            </a>
+
+            <a class="btn" href="#contact">
+              Contact me ↗
+            </a>
+          </div>
+        </div>
+
+        <aside class="hero-card">
+          <div class="mini-label">A little about my approach</div>
+
+          <h2>
+            Thoughtful design.<br>
+            Useful functionality.
+          </h2>
+
+          <p class="hero-card-copy">
+            I enjoy turning ideas into practical websites, paying
+            attention to the details that make a website easy to use.
+          </p>
+
+          <div class="code-window">
+            <div>
+              <span class="muted">const</span> developer = {
+            </div>
+
+            <div>
+              &nbsp;&nbsp;focus:
+              <span class="green">"user-first"</span>,
+            </div>
+
+            <div>
+              &nbsp;&nbsp;builds:
+              <span class="green">"web experiences"</span>,
+            </div>
+
+            <div>
+              &nbsp;&nbsp;mindset:
+              <span class="green">"keep improving"</span>
+            </div>
+
+            <div>};</div>
+          </div>
+
+          <div class="stats">
+            <div class="stat">
+              <strong>UI</strong>
+              <small>Responsive design</small>
+            </div>
+
+            <div class="stat">
+              <strong>API</strong>
+              <small>Backend basics</small>
+            </div>
+
+            <div class="stat">
+              <strong>AI</strong>
+              <small>GenAI project</small>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <!-- Projects Section -->
+      <section class="section" id="work">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">Selected work</div>
+            <h2>Projects with a purpose.</h2>
+          </div>
+
+          <p class="section-sub">
+            Here are two projects that show my work in web development
+            and AI-powered applications.
+          </p>
+        </div>
+
+        <div class="project-grid">
+
+          <!-- AI Resume Screening -->
+          <article class="project">
+            <div class="project-art ai">
+              <div class="mock">
+                <div class="mock-top"></div>
+                <div class="mock-title">Candidate overview</div>
+                <div class="mock-line"></div>
+                <div class="mock-line short"></div>
+
+                <div class="mock-cards">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <div class="project-top">
+                <h3>AI Resume Screening</h3>
+                <span class="badge">GenAI App</span>
+              </div>
+
+              <p>
+                An AI-powered resume screening application that
+                analyzes resumes against a job description and
+                generates useful candidate insights for recruiters.
+              </p>
+
+              <div class="tags">
+                <span class="tag">Python</span>
+                <span class="tag">Flask / FastAPI</span>
+                <span class="tag">Groq API</span>
+                <span class="tag">HTML · CSS · JS</span>
+                <span class="tag">SQLite</span>
+              </div>
+
+              <div class="project-links">
+                <a href="#contact">Discuss an AI tool ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Royal Spice -->
+          <article class="project">
+            <div class="project-art restaurant">
+              <div class="mock">
+                <div class="mock-top spice-top"></div>
+                <div class="mock-title">ROYAL SPICE</div>
+                <div class="mock-subtitle">INDIAN RESTAURANT</div>
+                <div class="mock-line"></div>
+                <div class="mock-line short"></div>
+
+                <div class="mock-cards">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <div class="project-top">
+                <h3>Royal Spice</h3>
+                <span class="badge">Restaurant Website</span>
+              </div>
+
+              <p>
+                An Indian restaurant website designed to present the
+                restaurant, showcase its food, and provide visitors
+                with a clean and responsive browsing experience.
+              </p>
+
+              <div class="tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">node.js</span>
+                <span class="tag">mongodb</span>
+                <span class="tag">Responsive Design</span>
+              </div>
+
+              <div class="project-links">
+                <a href="#contact">Discuss a restaurant site ↗</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <p class="contact-note">
+          Add your actual GitHub repository and live-demo links
+          to these projects when they are ready.
+        </p>
+      </section>
+
+      <!-- Skills Section -->
+      <section class="section" id="skills">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">Toolkit</div>
+            <h2>Skills I’m building with.</h2>
+          </div>
+
+          <p class="section-sub">
+            Technologies I use to build responsive interfaces
+            and connect websites with backend functionality.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill">
+            <strong>Frontend</strong>
+            <span>HTML · CSS · JavaScript · Responsive UI</span>
+          </div>
+
+          <div class="skill">
+            <strong>Backend</strong>
+            <span>Python · Flask / FastAPI · Node.js (learning)</span>
+          </div>
+
+          <div class="skill">
+            <strong>Database</strong>
+            <span>MySQL · SQLite</span>
+          </div>
+
+          <div class="skill">
+            <strong>Tools & APIs</strong>
+            <span>Git · GitHub · REST APIs · Groq API</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section class="section" id="services">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">Freelance services</div>
+            <h2>How I can help.</h2>
+          </div>
+
+          <p class="section-sub">
+            Practical web development services for small businesses,
+            individuals, and people with new ideas.
+          </p>
+        </div>
+
+        <div class="steps">
+          <article class="step">
+            <div class="num">01 / WEBSITES</div>
+            <h3>Business websites</h3>
+            <p>
+              Responsive landing pages, portfolios, service websites,
+              and small business websites.
+            </p>
+          </article>
+
+          <article class="step">
+            <div class="num">02 / UI IMPROVEMENTS</div>
+            <h3>Frontend fixes</h3>
+            <p>
+              Mobile responsiveness, layout fixes, navigation,
+              styling, and usability improvements.
+            </p>
+          </article>
+
+          <article class="step">
+            <div class="num">03 / WEB APPS</div>
+            <h3>Functional prototypes</h3>
+            <p>
+              Forms, dashboards, API integrations, and Python-backed
+              web application prototypes.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="section" id="contact">
+        <div class="contact">
+          <div>
+            <div class="eyebrow">Have a project in mind?</div>
+
+            <h2>Let’s make something useful.</h2>
+
+            <p>
+              Have a website idea or need help improving an existing
+              website? Get in touch and tell me about your project.
+            </p>
+          </div>
+
+          <div>
+            <div class="contact-links">
+              <!-- Replace these links with your actual details. -->
+
+              <a
+                class="btn"
+                href="https://github.com/princechauhan08"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub ↗
+              </a>
+
+              <a
+                class="btn"
+                href="https://www.linkedin.com/in/princechauhan08/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                LinkedIn ↗
+              </a>
+            </div>
+
+            <p class="contact-note">
+              Replace the sample email and profile links with your
+              real contact details before publishing.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <span>
+          © <span id="year"></span> Prince Chauhan
+        </span>
+
+        <span>
+          Web Developer ·
+          <a href="#top">Back to top ↑</a>
+        </span>
+      </footer>
+
+    </div>
+  </main>
+</body>
+</html>
